@@ -8,7 +8,7 @@ Follow this link to [documentation](https://packaging.python.org/guides/installi
 
 - Installing pip latest version
     python3 -m pip install --user --upgrade pip
-- Installing virtualenv¶
+- Installing virtualenv
     python3 -m pip install --user virtualenv
     
 - Creating a virtual environment
@@ -34,3 +34,8 @@ If you want to re-enter the virtual environment just follow the same instruction
 Installing packages¶
 Now that you’re in your virtual environment you can install packages. Let’s install the excellent Requests library from the Python Package Index (PyPI):
     pip install requests
+    pip install -r requirements.txt
+    
+    
+## How to use
+Once you successfully have all the prerequisites ready and set up the Python environment, you can scrape the Redfin data based on your needs. In the following I will demonstrate redfin-scraper usage by scraping a small city called Belmont (https://www.redfin.com/city/1362/CA/Belmont).
