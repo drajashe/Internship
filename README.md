@@ -33,8 +33,8 @@ If you want to re-enter the virtual environment just follow the same instruction
 
 Installing packages¶
 Now that you’re in your virtual environment you can install packages. Let’s install the excellent Requests library from the Python Package Index (PyPI):
-    pip install requests
-    pip install -r requirements.txt
+    - pip install requests
+    - pip install -r requirements.txt
     
     
 ## How to use
